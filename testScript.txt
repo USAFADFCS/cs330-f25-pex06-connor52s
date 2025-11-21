@@ -1,0 +1,10 @@
+-- testScript.txt
+let t00 = [] -- not a knot
+let t01 = [('a','o'),('a','u')] -- not a knot
+let t02 = [('a','u'),('a','o')] -- not a knot
+show t00
+unKnot t00
+show t01
+unKnot t01
+show t02
+unKnot t03
