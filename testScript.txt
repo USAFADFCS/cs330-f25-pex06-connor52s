@@ -2,9 +2,18 @@
 let t00 = [] -- not a knot
 let t01 = [('a','o'),('a','u')] -- not a knot
 let t02 = [('a','u'),('a','o')] -- not a knot
+let t03 = [('a','o'),('b','o'),('c','u'),('a','u'),('b','u'),('c','o')]
+let t05 = [('a','o'),('b','u'),('c','u'),('d','o'),('d','u'),('a','u'),('b','o'),('e','u'),('f','o'),('g','o'),('h','u'),('f','u'),('g','u'),('h','o'),('e','o'),('c','o')]
 show t00
 unKnot t00
 show t01
 unKnot t01
 show t02
+unKnot t02
+print("  ")
+print("  below are custom test")
+print("  ")
+show t03
 unKnot t03
+show t05
+unKnot t05
